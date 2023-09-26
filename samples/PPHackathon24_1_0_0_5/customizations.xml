@@ -1,0 +1,97 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{c070f5ee-e05a-ee11-be6f-000d3a37bf00}" Name="PA Flow - Translate handwritten text">
+      <JsonFileName>/Workflows/PAFlow-Translatehandwrittentext-C070F5EE-E05A-EE11-BE6F-000D3A37BF00.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PA Flow - Translate handwritten text" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>aldan_myvoicebuddy_27f22</Name>
+      <AppVersion>2023-09-26T06:48:59Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.23092.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.23092.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","showStatusBar":"false","publisherVersion":"3.23092.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230925T103030Z-3.23091.14.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>GlobalAIZer</DisplayName>
+      <Description xsi:nil="true"></Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"7db0a8f0-0c1f-4c5a-917e-a8444278a04c":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png","dataSources":["PAFlow-Translatehandwrittentext"],"dependencies":["a0875c70-e72d-472f-9ef6-0c9390989e6f","68e9fe46-adef-44e0-9869-15049d1ae2ab","747bd542-52d5-4472-989a-879eadeaaa49"],"dependents":[],"parameterHints":{"workflowName":{"value":"9ca0c1d7-0af9-444c-abb1-cebe7479f9f0"},"workflowEntityId":{"value":"c070f5ee-e05a-ee11-be6f-000d3a37bf00"},"a0875c70-e72d-472f-9ef6-0c9390989e6f":{"value":"shared_microsofttranslatorv_1"},"68e9fe46-adef-44e0-9869-15049d1ae2ab":{"value":"shared_sharepointonline"},"747bd542-52d5-4472-989a-879eadeaaa49":{"value":"shared_apptigentpowertoolspro_1"}},"parameterHintsV2":{"workflowName":{"value":"9ca0c1d7-0af9-444c-abb1-cebe7479f9f0"},"workflowEntityId":{"value":"c070f5ee-e05a-ee11-be6f-000d3a37bf00"},"shared_microsofttranslatorv_1":{"value":"a0875c70-e72d-472f-9ef6-0c9390989e6f"},"shared_sharepointonline":{"value":"68e9fe46-adef-44e0-9869-15049d1ae2ab"},"shared_apptigentpowertoolspro_1":{"value":"747bd542-52d5-4472-989a-879eadeaaa49"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"a0875c70-e72d-472f-9ef6-0c9390989e6f":{"id":"/providers/microsoft.powerapps/apis/shared_microsofttranslatorv","displayName":"Microsoft Translator V3","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1657/1.0.1657.3443/microsofttranslatorv/icon.png","dataSources":[],"dependencies":[],"dependents":["7db0a8f0-0c1f-4c5a-917e-a8444278a04c"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"68e9fe46-adef-44e0-9869-15049d1ae2ab":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["7db0a8f0-0c1f-4c5a-917e-a8444278a04c"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"747bd542-52d5-4472-989a-879eadeaaa49":{"id":"/providers/microsoft.powerapps/apis/shared_apptigentpowertoolspro","displayName":"Apptigent PowerTools","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1644/1.0.1644.3342/apptigentpowertoolspro/icon.png","dataSources":[],"dependencies":[],"dependents":["7db0a8f0-0c1f-4c5a-917e-a8444278a04c"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"}}</ConnectionReferences>
+      <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"43b0dc67-68af-47ae-9a9c-9e69d396ba3e":{"entitySetName":"msdyn_aimodels","logicalName":"msdyn_aimodel"}}}}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"dependencyid":"c070f5ee-e05a-ee11-be6f-000d3a37bf00","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"msdyn_aimodel","componenttype":1}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/aldan_myvoicebuddy_27f22_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/aldan_myvoicebuddy_27f22_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+  </CanvasApps>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="aldan_sharedapptigentpowertoolspro_dcb3b">
+      <connectionreferencedisplayname>Apptigent PowerTools PPHackathon24-dcb3b</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_apptigentpowertoolspro</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="aldan_sharedmicrosofttranslatorv_42e0b">
+      <connectionreferencedisplayname>Microsoft Translator V3 PPHackathon24-42e0b</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_microsofttranslatorv</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="aldan_sharedsharepointonline_a73eb">
+      <connectionreferencedisplayname>SharePoint PPHackathon24-a73eb</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
