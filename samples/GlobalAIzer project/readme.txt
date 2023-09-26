@@ -6,7 +6,7 @@
 	- Apptigent Pro subscription (30 days trial offered) - Text to Speech PA flow step
 	- SharePoint site
 
-(2) Presentation Video
+(2) Presentation Video URL 
 (3) Draw.io Architecture
 
 
